@@ -37,6 +37,9 @@
 #define PHANTOMJS_VERSION_PATCH     8
 #define PHANTOMJS_VERSION_STRING    "1.9.8"
 
+#define HTTP_HEADER_CONTENT_LENGTH      "content-length"
+#define HTTP_HEADER_CONTENT_TYPE        "content-type"
+
 #define COFFEE_SCRIPT_EXTENSION     ".coffee"
 
 #define JS_ELEMENT_CLICK "(function (el) { " \
