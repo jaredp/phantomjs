@@ -7,8 +7,8 @@ PhantomJS ([www.phantomjs.org](http://phantomjs.org)) is a headless WebKit scrip
 PhantomJS 1.9.7 has a bug in the webserver module where headers are treated as case sensitive.  This was causing issues.  The bug has been fixed, but the fix has not been included in 1.9x, so the bug will remain until 2.0.  This build is the 1.9.7 branch with the fix on top.  In theory this should not need maintanance, because when it (hopefully quickly) gets out of date, the new version (>=2.0) will already include the bugfix.
 
 Without further ado, there are binaries for
-- [Linux](https://raw.githubusercontent.com/jaredp/phantomjs/master/bin/phantomjs-1.9.8.custom-linux)
-- [Mac OS](https://raw.githubusercontent.com/jaredp/phantomjs/master/bin/phantomjs-1.9.8.custom-mac)
+- [Linux](https://github.com/jaredp/phantomjs/releases/download/1.9.8-custom/phantomjs-1.9.8.custom-linux.tar.bz2)
+- [Mac OS](https://github.com/jaredp/phantomjs/releases/download/1.9.8-custom/phantomjs-1.9.8.custom-mac.tar.bz2)
 
 
 ## PhantomJS Questions?
